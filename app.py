@@ -20,8 +20,8 @@ Example.........
 """
 @app.route('/')
 def index():
-    mylist = [1,2,3,4,5,6]
-    return render_template('basic.html', mylist= mylist)#you have parameter mylist and setting it equal to mylist with [1,2,3,4,5,6]
+    puppies = ['Fluffy', 'Rufus', 'Spike']
+    return render_template('basic.html', puppies= puppies)#you have parameter mylist and setting it equal to mylist with [1,2,3,4,5,6]
     #that mylist needs to match with the html file you created.
 
 
